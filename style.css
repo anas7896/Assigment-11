@@ -1,0 +1,253 @@
+/* navbar styling */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(0,212,255);
+background: linear-gradient(90deg, rgba(0,212,255,1) 0%, rgba(137,235,255,1) 0%, rgba(110,58,193,1) 100%);
+}
+
+ul li:hover{
+    color: chartreuse;
+    cursor: pointer;
+}
+
+ul{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    list-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 20);
+}
+
+li{
+    display: inline;
+    padding: 20px;
+}
+
+.navbar{
+    margin-left: 900px;
+}
+
+.logo{
+    margin-left: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.contact{
+    border: 1px solid white;
+    border-radius: 30px;
+    background-color:steelblue;
+    padding: 7px;
+}
+
+/* cards styling */
+
+.main{
+    /* column-count: 3; */
+    display: flex;
+    margin: auto;
+}
+
+.card{
+    margin: auto;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 15px;
+    width: 380px;
+    margin-top: 40px;
+    margin-left: 50px;
+    height: 540px;
+}
+
+.card:hover{
+    background-color: tomato;
+    color: white;
+    width: 450px;
+}
+
+h1{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+p{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.image1{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 240px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.image2{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 270px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.image3{
+    width: 100%;
+    margin-bottom: 10px;
+    height: 270px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.tech{
+    margin-left: 10px;
+    color: white;
+    background-color: rgb(94, 192, 253);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.girl{
+    display: inline;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.gir2{
+    display: inline;
+    width: 60px !important;
+    height: 60px !important;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.girl img{
+    width: 100%;
+}
+
+.card1-1{
+    display: flex;
+}
+
+.card1-1 p{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.card1-2{
+    display: flex;
+}
+
+.card1-2 p{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.john{
+    font-weight: bold;
+}
+
+.ago{
+    opacity: 0.6;
+}
+
+.tech-1{
+    background-color: rgb(213, 160, 0);
+    margin-left: 10px;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.tech-2{
+    background-color: red;
+    margin-left: 10px;
+    color: white;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+
+
+/* footer styling */
+
+.footer{
+    margin-top: 100px;
+    background-color: rgba(28, 22, 22, 0.9);
+    color: white;
+    text-align: center;
+}
+
+.footer h1{
+    padding: 30px;
+    font-size: 50px;
+}
+
+.footer p{
+    font-size: 19px;
+    line-height: 27px;
+}
+
+.footer i{
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+.footer1{
+    display: flex;
+    background-color: rgb(21, 20, 20);
+    color: white;
+}
+
+.footer1 p{
+    margin-top: 13px;
+}
+
+.folish{
+    color: blue !important;
+    cursor: pointer;
+}
+
+.footer a{
+    color: white;
+}
+
+.footer a:hover{
+    color: cadetblue;
+}
+
+.footer1 i{
+    font-size: 13px;
+    margin-left: 10PX;
+}
+
+.footer-home{
+    margin-left: 950px;
+}
+
+.footer-home{
+    background-color: rgb(21, 20, 20) !important;
+    list-style: none;
+}
+
+.footer-home li{
+    margin-left: -5px;
+    background-color: rgb(21, 20, 20);
+}
